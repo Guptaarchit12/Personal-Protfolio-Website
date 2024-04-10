@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap')
+
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box; /* Add box-sizing for better layout control */
+}
+
+.Sidebar {
+    background-color: rgb(173, 167, 167);
+    width: 434px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    height: 100vh;
+    
+}
+
+.Sidebar nav {
+    padding-right: 35px;
+}
+.Sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.Sidebar nav li {
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+.main {
+    
+    width: 90vw;
+   
+}
+
+.container {
+    display: flex;
+}
+
+.InfoContainer {
+    /* background-color: aqua; */
+    width: 80vw;
+    margin: auto;
+    margin-top: 147px ;
+    height: 381px;
+    display: flex; /* Change to flex for better alignment */
+    align-items: center; /* Center align items vertically */
+    justify-content: space-around; /* Distribute items evenly */
+}
+
+.DevPic {
+    height: 381px;
+    width: auto; /* Allow width to adjust automatically based on height */
+}
+
+.DevInfo {
+    display: flex; /* Use flexbox for better layout control */
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; /* Center align items horizontally */
+  padding-left: 60px;
+}
+.hello{
+    font-size: 55px;
+    padding-top: 25px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
+    
+    
+}
+.about{
+    font-size: 40px;
+}
+.buttons button{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.moreabout{
+    font-size: 22px;
+    font-family: "Lora", serif;
+}
+.ContactForm {
+    font-family: "Lora", serif;
+    padding-top: 89px;
+    padding-left: 61px;
+}
+.ContactForm h1{
+    font-family: "Source Code Pro", monospace;-
+    text-align: center;
+   padding-left: 220px;
+    
+
+}
+.ContactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+
+}
+#emailHelp{
+    font-size: 10px;
+    color: rgb(25, 112, 31);
+    margin: 0 5px;
+}
+.ContactForm form div input{
+    width: 30vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+    
+}
+#form-check{
+    flex-direction: row;
+
+}
+#isclient{
+    padding: 30px;
+    width: 12px;
+    
+}
+.form-check-label{
+    margin: 30px;
+}
+#form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+.btn-sm {
+    margin-top: -15px;
+    padding: 10px;
+    margin-left: -10px;
+    border-radius: 50px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
